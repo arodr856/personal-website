@@ -28,14 +28,19 @@ body, html {
 	/*height: 150px;*/
 	height: 50%;
 	display: flex;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	background-color: black;
 	justify-content: center;
 	align-items: center;
+	overflow: scroll;
 	/*background-image: url("../images/coming_soon.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;*/
 	/*opacity: 0.8;	*/
+}
+
+.right-about p{
+	position: inherit;
 }
 
 
@@ -50,8 +55,7 @@ body, html {
 
 img{
 	border-radius: 40% ;
-	border: 5;
-	position: relative;
+	position: inherit;
 }
 
 h1, h3{
